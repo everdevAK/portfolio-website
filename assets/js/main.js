@@ -1,2 +1,9 @@
-import "./components/nav-toggle.js";
+// import "./components/nav-toggle.js";
 
+const navToggle = document.querySelector(".nav-toggle");
+const navList = document.querySelector(".nav-list");
+
+navToggle.addEventListener("click", () => {
+  navList.classList.toggle("nav-open");
+  navToggle.classList.toggle("open");
+});
