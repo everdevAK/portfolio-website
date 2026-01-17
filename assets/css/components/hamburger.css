@@ -1,0 +1,60 @@
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    position: relative;
+}
+
+.hamburger::before {
+    top: -7px;
+}
+
+.hamburger::after {
+    top: 4px;
+}
+
+.hamburger:hover {
+    background: var(--primary);
+}
+
+.hamburger:hover::before,
+.hamburger:hover::after {
+    background: var(--primary);
+}
+
+
+/* When JS adds this class */
+.nav-list.nav-open {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hamburger animation (optional) */
+.nav-toggle.open .hamburger {
+  background: transparent;
+}
+
+.nav-toggle.open .hamburger::before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-toggle.open .hamburger::after {
+  transform: rotate(-45deg) translate(5px, -5px);
+}

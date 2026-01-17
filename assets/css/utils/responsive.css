@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .nav-list {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #0d0d0d;
+        flex-direction: column;
+        width: 200px;
+        padding: 1rem;
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}

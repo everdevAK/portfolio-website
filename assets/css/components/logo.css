@@ -1,0 +1,14 @@
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+.logo,
+.logo span {
+    user-select: none;
+}
