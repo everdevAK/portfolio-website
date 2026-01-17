@@ -17,3 +17,9 @@
 
 /* Pages */
 @import "pages/home.css";
+
+body {
+    background: url("../../images/main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
