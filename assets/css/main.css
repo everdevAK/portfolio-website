@@ -5,6 +5,7 @@
 /* Layout */
 @import "layout/header.css";
 @import "layout/hero.css";
+@import "layout/section.css";
 
 /* Components */
 @import "components/logo.css";
@@ -19,7 +20,10 @@
 @import "pages/home.css";
 
 body {
-    background: url("../../images/main-bg.jpg");
+    background: url("../images/main-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
 }
