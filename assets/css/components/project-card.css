@@ -1,0 +1,47 @@
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.project-card {
+    background: #0c2d35;
+    padding: 25px;
+    margin: 20px auto 0 auto;
+    max-width: 350px;
+    border: 1px solid rgb(9, 96, 137);
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(28, 130, 151, 0.4);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-summary {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-details {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.tech-stack {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.project-links a {
+    margin-right: 15px;
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}

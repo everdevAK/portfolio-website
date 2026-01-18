@@ -1,0 +1,13 @@
+.projects-section {
+    padding: 60px 20px;
+    background: #2e2e2e00;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 20px;
+  max-width: 1080px;
+  margin: auto;
+  padding-block: 10px;
+}
