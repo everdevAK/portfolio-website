@@ -6,24 +6,33 @@
 @import "layout/header.css";
 @import "layout/hero.css";
 @import "layout/section.css";
+@import "layout/project-grid.css";
 
 /* Components */
 @import "components/logo.css";
 @import "components/nav.css";
 @import "components/hamburger.css";
 @import "components/button.css";
+@import "components/project-card.css";
 
 /* Utils */
 @import "utils/responsive.css";
+@import "utils/helpers.css";
 
 /* Pages */
 @import "pages/home.css";
+@import "pages/contacts.css";
 
 body {
     background: url("../images/main-bg.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
+    color: #ffffff;
 }
+
+
+
